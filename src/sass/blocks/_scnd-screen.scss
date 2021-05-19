@@ -84,6 +84,14 @@
     margin-top: 80px;
     display: flex;
     justify-content: space-around;
+
+    &_item {
+        &:hover {
+            svg path {
+                fill: red;
+            }
+        }
+    }
 }
 
 .withlove {
@@ -99,5 +107,16 @@
         padding: 5px; 
         white-space: pre;
         text-align: center;
+    }
+    
+
+    &_heart {
+        width: 100%;
+        text-align: center;
+        &:hover {
+            svg path {
+                fill: red;
+            }
+        }
     }
 }
