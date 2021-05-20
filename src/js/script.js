@@ -36,7 +36,7 @@ function loop() {
 
 function Confetti () {
   //construct confetti
-  const colours = ['#fde132', '#009bde', '#ff6b00', '#ffffff'];
+  const colours = ['#fde132', '#009bde', '#ff6b00', '#ffffff', 'rgb(175, 0, 123)'];
   
   this.x = Math.round(Math.random(10) * w);
   this.y = Math.round(Math.random(10) * h)-(h/2);
