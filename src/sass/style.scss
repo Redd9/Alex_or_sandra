@@ -15,6 +15,13 @@ h1 {
     letter-spacing: 2px;
 }
 
+canvas {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
 @import 'blocks/header';
 @import 'blocks/first-screen';
 @import 'blocks/scnd-screen';
